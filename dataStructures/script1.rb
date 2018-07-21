@@ -1,0 +1,1 @@
+my_array = ["Luna", "Beatrice", "Sully"]
