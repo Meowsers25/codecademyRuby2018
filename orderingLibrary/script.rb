@@ -5,7 +5,12 @@
 numbers = [4, 2, 18, 245, 8]
 
 def alphabetize(arr, rev=false)
-  return arr.sort!
+  arr.sort!
+  if rev == true
+    arr.reverse!
+  else
+    arr
+  end
 end
 
 puts alphabetize(numbers)
