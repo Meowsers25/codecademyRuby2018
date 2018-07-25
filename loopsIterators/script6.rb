@@ -3,6 +3,18 @@
   # The reason this program counted to 9 and not 10 was that we used three dots in the range; this tells Ruby to exclude the final number in the count: for num in 1...10 means "go up to but don't include 10." If we use two dots, this tells Ruby to include the highest number in the range.
 
   #for num in 1...15
-  for num in 1..15
-    puts num
+  # for num in 1..15
+  #   puts num
+  # end
+
+  for num in 1..100
+    if num % 3 == 0 and num % 5 == 0
+      puts "fizzBuzz"
+    elsif num % 3 == 0
+      puts "fizz"
+    elsif num % 5 == 0
+      puts "buzz"
+    else
+      puts num
+    end
   end
