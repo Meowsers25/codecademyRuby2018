@@ -11,3 +11,5 @@
  # through "P".
 
  "L".upto("P"){ |letter| puts letter}
+
+ 100.downto(80){ |letter| print letter, " "}
